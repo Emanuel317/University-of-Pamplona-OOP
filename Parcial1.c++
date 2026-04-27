@@ -172,10 +172,10 @@ bool boolTypeVerification (bool hasCoDebtor) {
 		cout << "------------------------------------------------------------------------------------------------------------------------" << endl;
 		cout << "\n\a>> El tipo de dato ingresado no es vÃ¡lido, recuerde que solo se admite [1 = Si, 0 = No]. Por favor intente nuevamente." << endl << endl;
 		cout << "------------------------------------------------------------------------------------------------------------------------" << endl;
-		return false;
+		return hasCoDebtor = false;
 	}
 
-	return true;
+	return hasCoDebtor = true;
 }
 
 
