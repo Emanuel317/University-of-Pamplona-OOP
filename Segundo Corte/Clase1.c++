@@ -1,5 +1,12 @@
 #include <iostream>
 
+/**
+ * Implementación del Doxygen
+ * @brief Programa para crear una clase de un auto y acelerar el auto
+ * @param speed es la velocidad del auto
+ * @return No retorna nada
+ */
+
 class Car {
     public:
         int speed;
